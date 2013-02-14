@@ -59,6 +59,10 @@ set wildmode=list:longest,full
 "set list
 set pastetoggle=<F11>
 
+set tags=./tags;
+set cscopetag
+set csto=0
 
+set printoptions=paper:letter,wrap:y
 
 
