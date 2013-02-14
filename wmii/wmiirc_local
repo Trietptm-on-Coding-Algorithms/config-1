@@ -1,0 +1,25 @@
+
+MODKEY=Mod1
+
+# Dark theme
+WMII_FOCUSCOLORS='#eeeeee #506070 #708090'
+WMII_BACKGROUND='#333333'
+WMII_NORMCOLORS='#bbbbbb #222222 #000000'
+
+#WMII_NORMCOLORS='#00cc00 #000000 #00cc00'
+#WMII_FOCUSCOLORS='#000000 #00cc00 #00cc00'
+#WMII_BACKGROUND='#000000'
+
+WMII_FONT='cure'
+
+set -- $(echo $WMII_NORMCOLORS $WMII_FOCUSCOLORS)
+WMII_MENU="dmenu -b -fn '$WMII_FONT' -nf '$1' -nb '$2' -sf '$4' -sb '$5'"
+WMII_9MENU="wmii9menu -font '$WMII_FONT' -nf '$1' -nb '$2' -sf '$4' -sb '$5' -br '$6'"
+WMII_TERM="xterm"
+
+#wmiir write /colrules <<!
+#/.*/ -> 58+42
+#!
+
+
+

@@ -1,0 +1,74 @@
+! urxvt ---------------------------------------------------------------------
+
+!Rxvt.buffered:         true
+!Rxvt.background:       #0b0b0b
+!Rxvt.cursorColor:      #bbbbbb
+!Rxvt.foreground:       grey
+!Rxvt.font:             xft:Terminus:pixelsize=12:antialias=true
+!*foreground: #000000
+!*background: #00cc00
+
+Rxvt.buffered:         true
+Rxvt.background:       #0b0b0b
+Rxvt.foreground:       grey
+!Rxvt.cursorColor:      #00cc00
+Rxvt.font:             xft:Terminus:pixelsize=12:antialias=true
+
+Rxvt.scrollBar:        false
+Rxvt.saveLines:          10000
+Rxvt.scrollTtyKeypress:  true
+Rxvt.scrollWithBuffer:   false
+Rxvt.urlLauncher:     /usr/bin/chromium
+Rxvt.matcher.button:  1 
+
+
+
+xterm*saveLines:          10000
+xterm*boldMode: false
+xterm*colorBDMode: true
+xterm*colorBD: rgb:fc/fc/fc
+xterm*faceName: xft:Terminus:pixelsize=12
+xterm*dynamicColors: true
+xterm*utf8: 2
+xterm*scrollTtyKeypress: false
+xterm*scrollKey: true
+xterm*scrollTtyOutput: false
+
+*VT100.Translations: #override\
+	Shift<KeyPress>Prior: scroll-back(1,halfpage)\n\
+	Shift<KeyPress>Next: scroll-forw(1,halfpage)\n\
+	<KeyPress>Prior: scroll-back(1,page)\n\
+	<KeyPress>Next: scroll-forw(1,page)
+
+    
+
+
+
+*background:       #0b0b0b
+*foreground:       grey
+
+! red
+*color1:    #cc0000
+! blue
+*color4:    #0033ff
+
+!light red
+*color9:    #cc0000
+
+!*color0:    #000000
+!*color1:    #55ff55
+!*color2:    #00cc00
+!*color3:    #00cc00
+!*color4:    #005500
+!*color5:    #55ff55
+!*color6:    #00cc00
+!*color7:    #00cc00
+!*color8:    #000000
+!*color9:    #55ff55
+!*color10:    #55ff55
+!*color11:    #55ff55
+!*color12:    #005500
+!*color13:    #55ff55
+!*color14:    #55ff55
+!*color15:    #00cc00
+!
