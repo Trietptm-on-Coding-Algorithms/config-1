@@ -65,4 +65,4 @@ set csto=0
 
 set printoptions=paper:letter,wrap:y
 
-
+set clipboard=unnamed
